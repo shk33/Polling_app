@@ -156,6 +156,7 @@ DEPENDENCIES
   coffee-rails (~> 4.0.0)
   factory_girl_rails
   haml-rails
+  html2haml
   jbuilder (~> 2.0)
   jquery-rails
   minitest-rails

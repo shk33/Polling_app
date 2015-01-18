@@ -17,6 +17,10 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 
 gem 'spring',        group: :development
 
+group :development do
+  gem 'html2haml'
+end
+
 group :test do
   gem 'minitest-rails'
   gem 'factory_girl_rails'
