@@ -9,6 +9,7 @@ gem 'haml-rails'
 gem 'pry-rails'
 
 gem 'bootstrap-sass'
+gem 'autoprefixer-rails'
 gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
