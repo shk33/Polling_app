@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'replies_controller/new'
+
   #Root URL
   root 'polls#index'
 
