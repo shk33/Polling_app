@@ -7,7 +7,7 @@
 #answers_per_question
   -@poll.questions.each do |question|
     -if question.kind == "choice"
-      %div{id: "answers_per_question_#{question.id}"}
+      .col-md-6{id: "answers_per_question_#{question.id}"}
         :javascript
           var selector = "#answers_per_question_#{question.id}";
           var data = #{question.serialize_for_graph};
